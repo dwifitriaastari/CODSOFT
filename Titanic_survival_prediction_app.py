@@ -19,7 +19,7 @@ import warnings
 warnings.filterwarnings("ignore", message="missing ScriptRunContext")
 
 # --- Data Loading ---
-df = pd.read_csv("C:\\Users\\Dwi Fitria\\Intern\\CODSOFT\\CODSOFT\\4. Titanic Survival Prediction\\4. Titanic Survival Dataset.csv")
+df = pd.read_csv("/workspaces/CODSOFT/4. Titanic Survival Dataset.csv")
 
 # --- Define features and target ---
 numerical_features = ['Age', 'SibSp', 'Parch', 'Fare'] # Exclude 'FamilySize'
